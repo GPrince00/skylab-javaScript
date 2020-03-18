@@ -36,6 +36,21 @@
 
         pares(32, 321)
         //2º Exercicio
+
+        //3º Exercicio
+        function temHabilidade(skills) {
+            for (let i = 0; i < skills.length; i++) {
+                if (skills[i] === "Javascript") {
+                    return true
+                } else {
+                    return false
+                }
+                //ou return skills.indexOf("Javascript") !== -1;
+            }
+        }
+        var skills = ["Javascript", "ReactJS", "React Native"];
+        console.log(temHabilidade(skills));
+        //3º Exercicio
     </script>
 </body>
 
