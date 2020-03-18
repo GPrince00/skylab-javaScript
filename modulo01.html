@@ -40,17 +40,19 @@
         //3º Exercicio
         function temHabilidade(skills) {
             for (let i = 0; i < skills.length; i++) {
-                if (skills[i] === "Javascript") {
-                    return true
-                } else {
-                    return false
-                }
-                //ou return skills.indexOf("Javascript") !== -1;
+                return skills.indexOf("Javascript") !== -1;
+                //ou if (skills[i] === "Javascript") {
+                //     return true
+                // } else {
+                //     return false
+                // }
             }
         }
         var skills = ["Javascript", "ReactJS", "React Native"];
         console.log(temHabilidade(skills));
         //3º Exercicio
+
+
     </script>
 </body>
 
