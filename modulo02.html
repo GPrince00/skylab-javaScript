@@ -1,10 +1,25 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
 </head>
 
 <body>
+    <div class="divContainer">
+        <button onclick="criaQuadrado()">Criar Quadrado</button>
+    </div>
     <script>
+        //1º Exercicio
+        var divContainer = document.querySelector('.divContainer');
+
+        function criaQuadrado() {
+            var divElement = document.createElement('div');
+            divElement.style.width = '100px';
+            divElement.style.height = '100px';
+            divElement.style.backgroundColor = 'red';
+            divContainer.appendChild(divElement);
+        }
+        //1º Exercicio
     </script>
 </body>
 
